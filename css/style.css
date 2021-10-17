@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  width: 50%;
+  background-color: lightblue;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container__header {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  color: mediumblue;
+  margin-bottom: 0.5em;
+
+  border: 1px solid lightseagreen;
+  border-radius: 0.8rem;
+}
+
+.container__main__body {
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightseagreen;
+  border-radius: 0.8rem;
+  padding: .5em;
+}
+
+.container__pokemon-search {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+}
+
+.container__pokemon-search__input {
+    padding: 0.2em 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+}
+
+.container__pokemon-search__button {
+    height: 2em;
+    width: 60%;
+    align-self: center;
+    background-color: lightseagreen;
+    border-radius: 1em;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.685);
+}
+
+.container__pokemon-search__img {
+    margin-top: 1em ;
+}
+
+.container__pokemon-search__text__no-encontrado {
+    margin: 0 auto;
+    color: red;
+    font-size: 1em;
+}
+
+.container__pokemon-search__text__encontrado {
+    margin: 0 auto;
+    color: indianred;
+    font-size: 2em;
+    text-transform: capitalize;
+}
